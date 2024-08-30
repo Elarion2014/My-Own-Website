@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (max-width:1023px){
+  header{
+      padding: 12px 20px;
+  }
+  nav .kk section{
+      padding-left: 7px;
+  }
+  .title{
+      font-size: 1.8em;
+  }
+  section{
+      padding: 80px 20px;
+  }
+  .kk h2{
+      font-size: 1em;
+  }
+  .kk h3{
+      font-size: 0.9em;
+  }
+}
+@media (max-width:641px){
+  body{
+      font-size: 12px;
+
+  }
+  .kk h2{
+      font-size: 0.8em;
+  }
+  .kk h3{
+      font-size: 0.7em;
+  }
+}
+@media (max-width:300px){
+  body{
+      font-size:10px;
+}
+}
+:root{
+ --color:teal;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  header{
+    background-color: silver;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    z-index: 999;
+    position: fixed;
+  }
+  .logo{
+    text-decoration: none;
+    color: black;
+     font-size: 1.9em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 1.1 ease;
+  }
+  .logo:hover{
+     transform: scale(1.1);
+  }
+  nav a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 20px;
+    transition: 1.1 ease-out;
+    text-transform: capitalize;
+    transition: 1.1 ease;
+  }
+  nav a:hover{
+    color: white;
+    transform: scale(1.1);
+  }
+   .main-btn{
+   text-decoration: none;
+   margin-top: 20px; 
+   margin-bottom: 20px;
+   padding: 10px;
+   color: white;
+   background-color: blue;
+   border-radius: 15px;
+   font-size: 1.1em;
+   font-weight: 600;
+   transition: 0.1s ease;
+  }
+  .main-btn:hover{
+    transform: scale(1.9);
+  }
+  
+  section{
+    padding: 100px;
+   
+  }
+  .kk{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .kk h2 span{
+    color:aqua;
+    font-size: 3em;
+    margin-top: 10px;
+    display: inline-block;
+    
+  }
+  .kk h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  .logo:hover{
+   color: var(--color);
+   background-color: blue;
+  }
+  .kk h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    letter-spacing: 1px;
+
+  }
+ 
+  
+ .title{
+  color: blue;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 2.2em;
+   margin-bottom: 20px;
+ }
+ .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+ }
+ .card{
+  background-color: white;
+   margin: 15px;
+   padding: 25px;
+   padding: 100px 30px;
+   width: 21.25em;
+   box-shadow: 0 5px 25px rgba(0,12,230,29%);
+   text-align:center ;
+   border-radius: 10px;
+   transition: 0.2s ease;
+ }
+ .card:hover{
+  transform: scale(1.1);
+ }
+  .icon{ 
+  color: rgb(0, 110, 255);
+  font-size: 7em;
+  margin-bottom: 20px;
+ } 
+ .info h2{
+  color: gold;
+ }
+  #mailto{
+     display: flex;
+     justify-content: space-between;
+    margin: 20px;
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+    transition: 1.1 ease;
+    background-color:rgb(0, 110, 255);
+    width: 19em;
+    border-radius: 10px;
+  }
+
+#mailto:hover{
+ transform: scale(1.1);
+ color:green;
+}
+
+footer {
+   display: flex;
+   justify-content: space-between;
+  background-color: navy;
+}
+footer .copyright{
+  font-size: 1.4em;
+  font-weight: 700;
+}
+.vv{
+  color: rgb(0, 110, 255);
+  font-size: 1.4em;
+}
+#vv{
+  font-size: 1.4em;
+}
+.project{
+  background-color: #000016;
+}
+.project .content{
+  margin-top: 30px;
+ 
+}
+.project-card{
+  border: 1px solid white;
+  background-color: #fff;
+  min-height:14em;
+  width: 21.25em;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.1s ease;
+}
+.project-card:hover{
+ transform: scale(1.1);
+}
+.img{
+  width: 100%;
+}
+.img:hover{
+ opacity: 0.9;
+}
+.project-info{
+  padding: 1em;
+}
+.project-gat{
+  font-size: 0.8em;
+  color:#000013;
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.more-ditails{
+  text-decoration: none;
+  color: rgb(0, 110, 255);
+}
+.more-ditails:hover{
+  color: #601cfc;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.card {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic; 
+}
+.footer{
+  background-color: #000016;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-title{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.footer-title span{
+  color: #3a6cf4;
+}
+.footer .social a{
+  font-size: 1.2em;
+  padding: 0 12px 0 0;
+  color: #fff;
+}
+.main .social a{
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+  color: #fff;
+}
+
+.uu{
+  color: #fff;
+  font-size: 1.3em;
+ margin-top: 200px;
+}
+#contact .card{
+  padding: 5px 2.5px;
+}
